@@ -46,10 +46,71 @@ nav a{
     background-color: #FFF8F3;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 0px;
     display: flex;
     align-items: center;
 }
 .banner .profile-pic{
     width: 650px;
+}
+.header-top{
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.nijcontent{
+    padding-left: 50px;
+}
+.developerimage{
+    padding-bottom: 0px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    margin: 130px 0px;
+    color:#181818;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    width: 10 40px;
+    height: 150px;
+}
+.about-info-container{
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.what-i-do{
+    text-align: center;
+    font-size: 35px;
+}
+.what-i-do-description{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+}
+.skills-description{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #757575;
+}
+.skils{
+    text-align: left;
+    padding: 0px 33px 30px 33px ;   
+    margin: 10px;
+    box-shadow: 0px 10px 20px 0px;
+    gap: 50px ;
+
 }
