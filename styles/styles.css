@@ -114,3 +114,9 @@ main{
     gap: 50px ;
 
 }
+.resume-box{
+    display: flex;
+}
+section{
+    text-align: center;
+}
